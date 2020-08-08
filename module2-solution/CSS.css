@@ -1,0 +1,118 @@
+*{
+ box-sizing: border-box;
+
+}
+body{
+  
+  background-image: url('food1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+     width:100%;
+     height: 100%;
+     margin-left: auto;
+     margin-right: auto;
+    }
+#header{
+        font-size:100px;
+        font-weight: 1000;
+        font-style: oblique;
+        color:white;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+}
+.box{
+  float: left;
+  font-size:x-large ;
+  font-weight: 500;
+  font-style: inherit;
+  border: black solid 1px;
+  padding: 10px;
+  margin: 10px;
+}
+.box1{
+  color: black;
+  background-image: url('chicken2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.box2{
+    color:yellow;
+    background-image: url('beff.jpg');
+    background-repeat:no-repeat;background-size: cover;
+    
+    
+}
+.box3{
+     color: red;
+     background-image: url('sushi.jpg');
+     background-repeat:no-repeat;background-size: cover;
+}
+.chicken{
+  text-align-last:right;
+  font-size: xx-large;
+  font-weight: 500px;
+  color:purple;
+}
+.beef{
+  text-align-last:right;
+  font-size: xx-large;
+  font-weight: 500px;
+  color: aqua;
+}
+.sushi{
+  color:blue;
+  text-align-last:right;
+  font-size: xx-large;
+  font-weight: 500px;
+}
+
+.clearfix{
+  clear: both;
+}
+@media screen and  (min-width:992px){
+  .container{
+    width: 100%;
+}
+  .box1{
+    width:30% ;
+  }
+  .box2{
+    width:30% ;
+  }
+  .box3{
+    width:30% ;
+  }
+}
+@media screen and (min-width:768)and(max-width:991px){
+  .container{
+          width: 100%;
+  }
+  .box1{
+    width:50% ;
+    float: left;
+  }
+  .box2{
+    width:50% ;
+  }
+  .box3{
+    width: 100%;
+  }
+}
+@media screen and (max-width:767){
+  .container{
+    width: 100%;
+  }
+  .box1{
+    width: 100%;
+  }
+  .box2{
+    width: 100%;
+  }
+  .box3{
+    width: 100%;
+  }
+}
